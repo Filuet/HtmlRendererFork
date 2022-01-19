@@ -40,7 +40,6 @@ namespace TheArtOfDev.HtmlRenderer.PdfSharp
         {
             ArgChecker.AssertArgNotNullOrEmpty(fromFamily, "fromFamily");
             ArgChecker.AssertArgNotNullOrEmpty(toFamily, "toFamily");
-
             PdfSharpAdapter.Instance.AddFontFamilyMapping(fromFamily, toFamily);
         }
 
